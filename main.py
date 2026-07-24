@@ -298,7 +298,7 @@ def main() -> None:
     application.add_handler(MessageHandler(filters.Regex("^🖼 gallery$"), show_gallery))
     application.add_handler(MessageHandler(filters.Regex("^📊 statistics$"), show_statistics))
     application.add_handler(MessageHandler(filters.Regex("^ℹ️ abt bot$"), show_about))
-    application.add_handler(MessageHandler(filters.Regex("^🏠 main menu$"), show_main_menu))
+    #application.add_handler(MessageHandler(filters.Regex("^🏠 main menu$"), show_main_menu))
 
     application.add_handler(conv_handler)
 
